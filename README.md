@@ -56,7 +56,7 @@ Air-gapped ağlarda Tenable ürünlerinin güncel tutulması kritik bir güvenli
 
 ### 1. Repository'yi Klonlayın
 ```bash
-git clone https://github.com/bpekalp/Tenable-Security-Center-Updater.git
+git clone https://github.com/peksec/Tenable-Security-Center-Updater.git
 cd Tenable-Security-Center-Updater
 ```
 
@@ -193,23 +193,3 @@ sha256sum /tmp/all-2.0.tar.gz
 # Her hafta Pazar 03:00'da güncelleme
 0 3 * * 0 /path/to/nessus-updater.sh
 ```
-
-## 📝 Lisans
-
-Bu proje GNU General Public License v3.0 altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
-
-## ⚠️ Güvenlik Notları
-
-- Lisans bilgilerinizi asla public repository'lere commit etmeyin
-- Transfer sırasında dosya bütünlüğünü kontrol edin
-- Log dosyalarında hassas bilgi bulunup bulunmadığını kontrol edin
-- Güncelleme öncesi mutlaka yedek alın
-
-## 👤 Yazar
-
-**Güven Barış PEKALP**
-- GitHub: [@bpekalp](https://github.com/bpekalp)
-
-## 🙏 Teşekkürler
-
-Tenable topluluğuna geri bildirimleri ve katkıları için teşekkür ederiz.
